@@ -99,5 +99,5 @@ if __name__ == '__main__':
     setLogLevel('info')
     customTopo()
 
-
-./pox.py openflow.of_01 --port=6633 log.level --DEBUG samples.pretty_log openflow.discovery openflow.spanning_tree --no-flood --hold-down forwarding.l2_learning host_tracker info.packet_dump
+#pox controller
+#./pox.py openflow.of_01 --port=6633 log.level --DEBUG samples.pretty_log openflow.discovery openflow.spanning_tree --no-flood --hold-down forwarding.l2_learning host_tracker info.packet_dump
